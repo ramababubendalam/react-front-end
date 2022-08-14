@@ -1,0 +1,43 @@
+{
+  "name": "digital-ocean-tutorial",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "react-icons": "4.2.0",
+    "web-vitals": "^2.1.4",
+    "react-router-dom": "^5.2.0",
+    "lodash": "^4.17.15",
+    "axios": "^0.19.0",
+    "cronstrue": "^1.83.0",
+    "moment": "^2.24.0",
+    "query-string": "^6.8.2",
+    "prop-types": "15.6.2",
+    "emblematic-icons": "0.6.1",
+    "former-kit": "1.6.0",
+    "react-tabs": "3.2.3",
+    "aws-amplify": "4.3.14",
+    "react-bootstrap": "^2.1.2",
+    "react-router-bootstrap": "0.25.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
