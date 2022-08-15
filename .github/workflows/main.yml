@@ -27,13 +27,6 @@ jobs:
       run: |
         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
         docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
-    - name: Deploy to ECS
-      uses: aws-actions/aws-cloudformation-github-deploy@v1
-      with:
-        name: Api-Possix-Backend
-        template: template.yml
-        parameter-overrides: "Env=dev01,ApiName=Possix-Time,Stage=dev01,s3BucketName=deploy-lambda-scripts,Version=${{ github.run_number }}"
-        capabilities: CAPABILITY_IAM,CAPABILITY_AUTO_EXPAND
 
   deploy:
     needs: build
