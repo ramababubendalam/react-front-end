@@ -36,6 +36,7 @@ jobs:
         capabilities: CAPABILITY_IAM,CAPABILITY_AUTO_EXPAND
 
   deploy:
+    needs: build
     name: Deploy
     runs-on: ubuntu-latest
     steps:

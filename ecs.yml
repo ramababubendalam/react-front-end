@@ -67,7 +67,7 @@ Resources:
     Properties:
       TemplateURL: https://deploy-lambda-scripts.s3.eu-west-2.amazonaws.com/service.yml
       Parameters:
-        ReactBuild:
+        ReactBuild: !Ref ReactBuild
         VPC: !GetAtt VPC.Outputs.VPC
         Cluster: !GetAtt ECS.Outputs.Cluster
         DesiredCount: 1
