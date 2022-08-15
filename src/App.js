@@ -16,7 +16,7 @@ const App = () => {
     const [systemtime, setTime] = useState({});
 
     useEffect(() => {
-        const url = config.BackendUrl.API_URL;
+        const url = config.BackendUrl.API_URL + "v1";
 
 //        const url = "https://38a7xrtj2h.execute-api.eu-west-2.amazonaws.com/dev01";
 
