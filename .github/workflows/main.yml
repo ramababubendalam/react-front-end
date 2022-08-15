@@ -53,4 +53,4 @@ jobs:
         name: ecs-stack
         template: ecs.yml
         parameter-overrides: "ReactBuild=${{ github.run_number }}"
-        capabilities: CAPABILITY_IAM,CAPABILITY_AUTO_EXPAND
+        capabilities: CAPABILITY_IAM,CAPABILITY_AUTO_EXPAND,CAPABILITY_NAMED_IAM
