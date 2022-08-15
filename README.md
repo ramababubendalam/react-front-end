@@ -1,2 +1,4 @@
-# react-front-end
-Get date and time from server
+# React Script to Get UnixTime
+
+For deployment versions
+
